@@ -2,7 +2,7 @@ package model.comparators;
 
 import java.util.Comparator;
 
-import model.entitites.Candidate;
+import model.entities.Candidate;
 
 public class MostVotedCandidate implements Comparator<Candidate>{
 	

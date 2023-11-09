@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-import model.entitites.Candidate;
+import model.entities.Candidate;
 import services.CandidateComparatorService;
 
 public class Program {

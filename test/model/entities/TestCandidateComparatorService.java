@@ -8,7 +8,6 @@ import java.util.PriorityQueue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import model.entitites.Candidate;
 import services.CandidateComparatorService;
 
 class TestCandidateComparatorService {
@@ -73,7 +72,7 @@ class TestCandidateComparatorService {
 		int totalVotesReceivedByAllCandidates = cs.totalVotesReceivedByAllCandidates(listCandidates);
 		
 		assertEquals(99440, totalVotesReceivedByAllCandidates);
-		//19888,00
+		
 		
 	}
 	

@@ -8,7 +8,7 @@ import model.comparators.LeastVotedCandidate;
 import model.comparators.MostVotedCandidate;
 import model.comparators.OldestCandidate;
 import model.comparators.YoungestCandidate;
-import model.entitites.Candidate;
+import model.entities.Candidate;
 
 public class CandidateComparatorService {
 
@@ -25,6 +25,7 @@ public class CandidateComparatorService {
 			Comparator<Candidate> comparator) {
 		PriorityQueue<Candidate> pq = new PriorityQueue<Candidate>(listCandidates.size(), comparator);
 		pq.addAll(listCandidates);
+		
 		return pq;
 	}
 
